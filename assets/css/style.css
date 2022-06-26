@@ -5,7 +5,7 @@
 }
 
 .grid-container {
-    grid-template: "navbar";
+    grid-template: "navbar" "headerwrap" "leyenda";
 }
 
 /* Navbar */
@@ -48,5 +48,39 @@
 .telefono {
     margin: .65rem 1.3rem 0 0;
     line-height: 1rem;
+}
+
+/* Headerwrap */
+
+#headerwrap {
+    grid-area: headerwrap;
+}
+
+#formulario {
+    display: none;
+}
+
+/* Leyenda */
+
+#leyenda {
+    grid-area: leyenda;
+}
+
+#leyenda h2 {
+    line-height: 1.1rem;
+}
+
+#leyenda h2 strong {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+#leyenda2 a {
+    color: #fff;
+}
+
+.btn-info {
+    background-color: #1e225f !important;
+    border: #1e225f !important;
 }
 
