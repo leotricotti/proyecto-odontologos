@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    grid-template: "navbar";
+}
+
+/* Navbar */
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: block !important;
+}
+
+.navbar {
+    grid-area: navbar;
+    width: 100%;
+}
+
+.navbar-brand img {
+    margin: .5rem 2.1rem;
+}
+
+.tel {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.icon-phone {
+    display: none;
+}
+
+.direccion {
+    display: inline;
+}
+
+.i-name {
+    font-family: "Dosis";  
+    width: 100%; 
+    color: #1e225f !important;
+    font-size: .9rem;
+    letter-spacing: 0.02rem;
+}
+
+.telefono {
+    margin: .7rem 1rem 0 1rem;
+    line-height: 1rem;
+}
+
