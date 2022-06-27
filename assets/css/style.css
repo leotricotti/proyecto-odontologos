@@ -5,7 +5,7 @@
 }
 
 .grid-container {
-    grid-template: "navbar" "headerwrap" "leyenda" "frame" "listados" "contacto";
+    grid-template: "navbar" "headerwrap" "leyenda" "frame" "listados" "contacto" "copyright";
 }
 
 /* Navbar */
@@ -214,6 +214,25 @@
     opacity: .65;
     padding: 10px 10px;
     border-radius: 3px;
-
 }
 
+/* Copyright */
+
+#copyrigh {
+    grid-area: copyright;
+}
+
+#copyright {
+    color: #555;
+    padding: 30px 0;
+}
+
+.footer2 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+@media (max-width: 479px) {
+    
+}
