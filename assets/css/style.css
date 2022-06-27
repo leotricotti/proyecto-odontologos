@@ -5,7 +5,7 @@
 }
 
 .grid-container {
-    grid-template: "navbar" "headerwrap" "leyenda";
+    grid-template: "navbar" "headerwrap" "leyenda" "frame" "footer" 50rem;
 }
 
 /* Navbar */
@@ -84,3 +84,38 @@
     border: #1e225f !important;
 }
 
+/* Frame */
+
+#frame {
+    grid-area: frame;
+}
+
+.col-lg-8 {
+    padding: 0 15px !important;
+}
+
+.centered {
+    text-align: center !important;
+}
+
+#frame h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin: 20px 0 10px;
+    font-weight: 400;
+}
+
+#frame a {
+    color: #fff;
+}
+
+.col-lg-2 p {
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+
+/* Footer */
+
+.footer {
+    grid-area: footer;
+}
