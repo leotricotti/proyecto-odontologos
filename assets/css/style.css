@@ -5,7 +5,7 @@
 }
 
 .grid-container {
-    grid-template: "navbar" "headerwrap" "leyenda" "frame" "footer" 50rem;
+    grid-template: "navbar" "headerwrap" "leyenda" "frame" "listados";
 }
 
 /* Navbar */
@@ -114,8 +114,50 @@
     margin: 0 0 10px;
 }
 
-/* Footer */
+/* Listados */
 
-.footer {
-    grid-area: footer;
+#listados {
+    grid-area: listados;
+    padding: 0 15px !important;
+}
+
+#listados h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    margin: 20px 0 10px;
+    font-weight: 400;
+}
+
+#listados h4 {
+    color: #95a5a6;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#listados .btn {
+    color: #fff;
+    font-weight: 700 !important;
+    padding: 8px 13px !important;
+}
+
+#listados .row {
+    display: block !important;
+}
+
+#listados .atlas {
+    width: 140px;
+} 
+
+#listados p {
+    color: #555;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+#listados p strong {
+    color: #555;
+    font-size: 12px;
+    font-weight: bold;
 }
