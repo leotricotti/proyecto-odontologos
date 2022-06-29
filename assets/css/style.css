@@ -247,6 +247,7 @@
 }
 
 @media (min-width: 768px) {
+   
     .navbar .col-md-4 {
         width: auto !important;
     }
@@ -259,10 +260,14 @@
     .navbar {
         padding: 20px 0 !important;
         border: 1px solid transparent;
-    }   
+    }
+    
+    .telefono {
+        margin-top: 24px !important;
+    }
 
     .i-name {
-        font-size: 1.2rem !important;
+        font-size: 1.1rem !important;
         line-height: 1.5rem !important;
         padding: 4px;
         margin-top: 24px !important;
@@ -294,4 +299,96 @@
         width: 160px;
         height: 185px;
     } 
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+    .tel {
+        flex-direction: row !important;
+        color: #1e225f; 
+        font-size: 16px;  
+    }
+
+    .telefono-dos  {
+        margin-right: 12rem;
+        margin-bottom: 3rem;
+    }
+
+    .tel svg {
+        font-size: 1.4rem;
+        margin-right: 1rem;
+    }
+
+    #headerwrap .row {
+        flex-wrap: nowrap !important;
+        justify-content: space-between !important;
+    }
+
+    .flex-wrap {
+        display: flex;
+        justify-content: flex-start !important;
+        width: 372px !important;
+    }
+    
+    .img-responsive {
+        width: 770px !important;
+    }
+
+    .image-container {
+        text-align: left !important;
+    }
+
+    .img-responsive2 {
+        width: 80% !important;
+    }
+    
+    .formulario-btn {
+        width: 160px;
+        text-align: center !important;
+        margin-left: 10px;
+    }
+
+    .col-md-8 {
+        width: 60% !important;
+    }
+
+    #formulario {
+        width: 372px !important;
+    }
+
+    .col-md-5 {
+        width: 45% !important;
+    }
+
+    .col-md-6 {
+        width: 50% !important;
+    }
+
+    .col-md-7 {
+        width: 55% !important;
+        font-size: 12px !important;
+        text-align: center !important;
+        padding: 20px 20px 0;
+    }
+
+    #listados .container {
+        display: flex !important;
+    }
+
+    #listados .mt {
+        display: flex !important;
+        padding: 0 0 !important;
+        margin: 40px 0 !important;
+    }
+
+    #formulario-footer {
+        display: flex !important;
+    }
+
+    .btn-lg {
+        padding: 7px 0 !important;
+    }
 }
